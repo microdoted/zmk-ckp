@@ -15,5 +15,6 @@ After editing the keymap file upload it to the original folder using the "Add fi
  # More advanced
  If you want to exercise greater control over your BT60 and have a unique layout implemented you will need to change the matrix transform. The following diagram displays which keys connect to which row and column pins. Note that everything is zero indexed in the matrix transform
  	![alt text](rowcolmap.png)
+ ![alt text](https://github.com/microdoted/zmk-ckp/blob/2u-arrows/2u-arrows.jpg?raw=true)
   The matrix transform can be found in bt60.dts, more information on how to do the matrix transforms can be found in the official ZMK documentation [here](https://zmkfirmware.dev/docs/development/new-shield#optional-matrix-transform)
   We're always willing to accept pull requests if you've developed your own layouts :)
